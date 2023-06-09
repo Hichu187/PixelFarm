@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40b16f7329f36894b80c2da74faa2eae, type: 3}
-  m_Name: Pumpkin
+  m_Name: WaterMelon
   m_EditorClassIdentifier: 
-  plantName: Pumpkin
+  plantName: WaterMelon
   plantStages:
-  - {fileID: 118328160, guid: f4df28854e83ecf49a87ac29d0c58e65, type: 3}
-  - {fileID: 893956367, guid: f4df28854e83ecf49a87ac29d0c58e65, type: 3}
-  - {fileID: 906280896, guid: f4df28854e83ecf49a87ac29d0c58e65, type: 3}
-  - {fileID: 441641650, guid: f4df28854e83ecf49a87ac29d0c58e65, type: 3}
-  timeBtwStage: 10
+  - {fileID: -2019872719, guid: f4df28854e83ecf49a87ac29d0c58e65, type: 3}
+  - {fileID: 720390289, guid: f4df28854e83ecf49a87ac29d0c58e65, type: 3}
+  - {fileID: 1059342982, guid: f4df28854e83ecf49a87ac29d0c58e65, type: 3}
+  - {fileID: -641305812, guid: f4df28854e83ecf49a87ac29d0c58e65, type: 3}
+  timeBtwStage: 15

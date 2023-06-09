@@ -14,6 +14,7 @@ public class PlantingManager : MonoBehaviour
     public List<PlantObject> plants;
 
     public PlantObject curPlant;
+    public int curPlantID;
     void Start()
     {
         
@@ -37,6 +38,10 @@ public class PlantingManager : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
             curPlant = plants[3];
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            curPlant = plants[4];
         }
 
     }

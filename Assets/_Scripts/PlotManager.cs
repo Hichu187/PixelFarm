@@ -70,16 +70,21 @@ public class PlotManager : MonoBehaviour
 
     void Plant()
     {
-        isPlanted = true;
 
-        selectedPlant = PlantingManager.instance.curPlant;
+        if(PlantingManager.instance.curPlant != null)
+        {
+            isPlanted = true;
+            selectedPlant = PlantingManager.instance.curPlant;
 
-        plantStage = 0;
-        plantStages = selectedPlant.plantStages;
-        plant.sprite = selectedPlant.plantStages[plantStage];
-        timer = 5;
+            plantStage = 0;
 
-        plant.gameObject.SetActive(true);
+            plantStages = selectedPlant.plantStages;
+            plant.sprite = selectedPlant.plantStages[plantStage];
+            timer = 5;
+
+            plant.gameObject.SetActive(true);
+        }
+
     }
 
     void UpdatePlant()

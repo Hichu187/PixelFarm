@@ -1338,6 +1338,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b5ef4497c95eae945bd5298e69cfb2f6, type: 2}
   - {fileID: 11400000, guid: e08c62f6954010c49affab7207c745ef, type: 2}
   - {fileID: 11400000, guid: 33ef254e583f23c45ac0c46ce7c3b1c2, type: 2}
+  - {fileID: 11400000, guid: 7b3961c3ebaf9bc428e2e0907983d0ea, type: 2}
   curPlant: {fileID: 0}
 --- !u!4 &1799867939
 Transform:
