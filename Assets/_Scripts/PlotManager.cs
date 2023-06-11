@@ -9,7 +9,7 @@ public class PlotManager : MonoBehaviour
     public Sprite[] plantStages;
     public int plantStage = 0;
 
-    bool isPlanted;
+    public bool isPlanted;
     
 
     float timer = 5;
@@ -25,6 +25,8 @@ public class PlotManager : MonoBehaviour
 
     void Update()
     {
+
+
         if (selectedPlant != null)
         {
             if (timer < 0)
@@ -44,7 +46,41 @@ public class PlotManager : MonoBehaviour
 
 
     }
+    private void OnMouseOver()
+    {
+        if (Input.GetMouseButton(0))
+        {
+            if (isPlanted)
+            {
+                if (plantStage == selectedPlant.plantStages.Length - 1)
+                {
+                    Harvest();
+                }
+            }
+            else
+            {
+                Plant();
 
+            }
+        }
+        else
+        {
+            if (isPlanted && PlantingManager.instance.curPlant != null)
+            {
+                this.GetComponent<SpriteRenderer>().color = Color.red;
+            }
+            else if(isPlanted == false && PlantingManager.instance.curPlant != null)
+            {
+                this.GetComponent<SpriteRenderer>().color = Color.green;
+            }
+        }
+
+    }
+
+    private void OnMouseExit()
+    {
+        this.GetComponent<SpriteRenderer>().color = Color.white;
+    }
     private void OnMouseDown()
     {
         if (isPlanted)
@@ -57,15 +93,21 @@ public class PlotManager : MonoBehaviour
         else
         {
             Plant();
-            
+
         }
     }
 
-    void Harvest()
-    {
+    private void  Harvest()
+    {    
+        if(PlantingManager.instance.curPlant != null)
+        {
+            PlantingManager.instance.curPlant = null;
+        }
+        //todo: Havest action 
+        plant.gameObject.SetActive(false);
         isPlanted = false;
 
-        plant.gameObject.SetActive(false);
+       
     }
 
     void Plant()

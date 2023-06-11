@@ -9,6 +9,9 @@ public class PlantingManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        PlantObject[] obj = Resources.LoadAll<PlantObject>("Scriptable_Object/");
+        plants.AddRange(obj);
+
     }
 
     public List<PlantObject> plants;
@@ -23,26 +26,6 @@ public class PlantingManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            curPlant = plants[0];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            curPlant = plants[1];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            curPlant = plants[2];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
-        {
-            curPlant = plants[3];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha5))
-        {
-            curPlant = plants[4];
-        }
 
     }
 }

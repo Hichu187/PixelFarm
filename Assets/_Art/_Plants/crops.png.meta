@@ -3,7 +3,7 @@ guid: f4df28854e83ecf49a87ac29d0c58e65
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -264,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_12
+      name: Onion_0
       rect:
         serializedVersion: 2
         x: 384
@@ -621,7 +620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_44
+      name: Onion_1
       rect:
         serializedVersion: 2
         x: 384
@@ -1041,7 +1040,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_76
+      name: Onion_2
       rect:
         serializedVersion: 2
         x: 384
@@ -1461,7 +1460,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_108
+      name: Onion_3
       rect:
         serializedVersion: 2
         x: 384
@@ -1698,7 +1697,7 @@ TextureImporter:
         x: 736
         y: 768
         width: 32
-        height: 64
+        height: 33
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2280,7 +2279,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_159
+      name: CornB_4
       rect:
         serializedVersion: 2
         x: 992
@@ -2301,7 +2300,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_160
+      name: asparagus_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2721,7 +2720,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_180
+      name: strawberry_0
       rect:
         serializedVersion: 2
         x: 640
@@ -2742,7 +2741,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_181
+      name: blackberry_0
       rect:
         serializedVersion: 2
         x: 672
@@ -2763,7 +2762,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_182
+      name: strawberryB_0
       rect:
         serializedVersion: 2
         x: 704
@@ -2784,7 +2783,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_183
+      name: blueberry_0
       rect:
         serializedVersion: 2
         x: 736
@@ -2889,7 +2888,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_188
+      name: tomato_0
       rect:
         serializedVersion: 2
         x: 896
@@ -2973,7 +2972,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_192
+      name: asparagus_1
       rect:
         serializedVersion: 2
         x: 0
@@ -3372,7 +3371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_212
+      name: strawberry_1
       rect:
         serializedVersion: 2
         x: 640
@@ -3393,7 +3392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_213
+      name: blackberry_1
       rect:
         serializedVersion: 2
         x: 672
@@ -3414,7 +3413,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_214
+      name: strawberryB_1
       rect:
         serializedVersion: 2
         x: 704
@@ -3435,7 +3434,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_215
+      name: blueberry_1
       rect:
         serializedVersion: 2
         x: 736
@@ -3540,7 +3539,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_220
+      name: tomato_1
       rect:
         serializedVersion: 2
         x: 896
@@ -3624,7 +3623,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_224
+      name: asparagus_2
       rect:
         serializedVersion: 2
         x: 0
@@ -4044,7 +4043,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_244
+      name: strawberry_2
       rect:
         serializedVersion: 2
         x: 640
@@ -4065,7 +4064,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_245
+      name: blackberry_2
       rect:
         serializedVersion: 2
         x: 672
@@ -4086,7 +4085,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_246
+      name: strawberryB_2
       rect:
         serializedVersion: 2
         x: 704
@@ -4107,7 +4106,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_247
+      name: blueberry_2
       rect:
         serializedVersion: 2
         x: 736
@@ -4212,7 +4211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_252
+      name: tomato_2
       rect:
         serializedVersion: 2
         x: 896
@@ -4296,13 +4295,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_256
+      name: asparagus_3
       rect:
         serializedVersion: 2
         x: 0
         y: 448
         width: 32
-        height: 64
+        height: 41
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4716,7 +4715,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_276
+      name: strawberry_3
       rect:
         serializedVersion: 2
         x: 640
@@ -4737,13 +4736,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_277
+      name: blackberry_3
       rect:
         serializedVersion: 2
         x: 672
         y: 448
         width: 32
-        height: 64
+        height: 31
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4758,7 +4757,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_278
+      name: strawberryB_3
       rect:
         serializedVersion: 2
         x: 704
@@ -4779,13 +4778,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_279
+      name: blueberry_3
       rect:
         serializedVersion: 2
         x: 736
         y: 448
         width: 32
-        height: 64
+        height: 30
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4884,7 +4883,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_284
+      name: tomato_3
       rect:
         serializedVersion: 2
         x: 896
@@ -5871,7 +5870,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_31
+      name: CornB_0
       rect:
         serializedVersion: 2
         x: 992
@@ -6123,7 +6122,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_63
+      name: CornB_1
       rect:
         serializedVersion: 2
         x: 992
@@ -6396,7 +6395,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_95
+      name: CornB_2
       rect:
         serializedVersion: 2
         x: 992
@@ -6549,7 +6548,7 @@ TextureImporter:
         x: 192
         y: 768
         width: 32
-        height: 64
+        height: 34
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6612,7 +6611,7 @@ TextureImporter:
         x: 864
         y: 768
         width: 32
-        height: 64
+        height: 33
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6690,7 +6689,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_127
+      name: CornB_3
       rect:
         serializedVersion: 2
         x: 992
@@ -7120,7 +7119,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      crops_220: -1614806822
       crops_206: -2095470814
       crops_211: 1989555205
       crops_231: -90780826
@@ -7132,18 +7130,18 @@ TextureImporter:
       crops_167: -1409762861
       crops_88: 1433002069
       crops_155: -1901445295
-      crops_12: -451535745
       crops_248: 444225302
-      crops_215: 1862388879
+      strawberry_3: 1044827298
       crops_47: 292651801
       crops_186: 469548977
       crops_122: 1713770668
       crops_259: 1087635628
-      crops_44: -1733196935
       crops_50: -677370400
       crops_223: 850411873
+      crops_307: -1593603058
+      tomato_2: -482385017
       crops_145: 215828510
-      crops_284: 2055227362
+      crops_308: 1993961828
       crops_271: -880614935
       crops_289: -1786552920
       crops_233: 193241768
@@ -7151,33 +7149,28 @@ TextureImporter:
       crops_316: -338476945
       crops_154: 693041193
       crops_201: 269538570
-      crops_307: -1593603058
-      crops_308: 1993961828
       crops_153: -2028445770
       crops_194: -1571904794
       crops_56: -280989769
       crops_73: 1354738155
-      crops_95: -856519822
-      crops_252: -482385017
       crops_84: -911108412
-      crops_183: -204011468
+      Onion_2: 1721985466
       crops_323: 1967823125
       crops_205: -1726972654
-      crops_212: 1733519548
-      crops_104: 1981740167
-      crops_305: 275701292
       crops_297: 892734515
       crops_315: 28559960
+      crops_305: 275701292
+      crops_104: 1981740167
       Corn_2: -416886728
       pumpkin_1: 893956367
       crops_42: -1898160339
-      crops_31: -1811005949
       crops_85: -274340933
+      crops_190: 1939013946
+      asparagus_1: -1670181681
       crops_139: -313537541
       crops_34: -1144267287
-      crops_190: 1939013946
-      crops_182: 164380039
       crops_219: 1262512571
+      blueberry_3: 434900403
       crops_185: 391746038
       crops_164: 1708812702
       crops_24: 885561422
@@ -7185,41 +7178,39 @@ TextureImporter:
       crops_129: -2001854307
       crops_195: -697693973
       crops_116: -1992861578
-      crops_181: 1394467501
       crops_236: -225183253
+      carrot_3: -1851181271
       crops_290: -548054568
       crops_217: -551357830
-      carrot_3: -1851181271
       crops_254: -844141511
       crops_325: 614963511
-      crops_213: -1466528881
       crops_268: -706289100
+      strawberry_2: 1789354626
       crops_49: 372126021
       crops_144: 268362501
       crops_148: -282092631
       crops_157: 2111174570
-      crops_63: 1941058421
+      strawberry_0: -685480285
       crops_227: 1939459212
       crops_13: -258925674
       crops_51: 586026290
       crops_74: 1596657946
-      crops_200: -547585520
-      crops_130: -14361629
-      crops_43: -88216771
-      crops_92: 285436677
-      crops_276: 1044827298
       crops_208: 1260818668
       crops_241: 1036247730
-      crops_193: 1882596245
+      crops_92: 285436677
       crops_327: 2015407811
+      crops_130: -14361629
+      crops_43: -88216771
+      crops_193: 1882596245
       crops_11: -1955384179
       crops_100: -1974508052
       crops_20: 378682281
       Corn_3: -300809746
+      crops_200: -547585520
       crops_203: 1266602484
       crops_141: 887458107
-      crops_267: -1427313848
       w_3: -641305812
+      crops_267: -1427313848
       crops_66: 1595564183
       crops_75: -140612326
       crops_302: 1854585775
@@ -7229,13 +7220,11 @@ TextureImporter:
       crops_57: 412841523
       crops_26: 564158419
       crops_135: 912486522
-      crops_127: 1281563225
-      crops_256: 214370539
-      crops_108: 468972147
+      crops_328: 669153009
+      blueberry_0: -204011468
       crops_317: 30614070
       crops_162: -1303573574
       crops_295: -111323347
-      crops_328: 669153009
       crops_111: -1887735978
       crops_258: -1208205559
       crops_282: -486097852
@@ -7248,13 +7237,15 @@ TextureImporter:
       crops_163: 368021126
       crops_262: 1848066979
       crops_288: 1780023811
+      CornB_0: -1811005949
+      blackberry_1: -1466528881
       crops_17: 47643338
       crops_272: 1544506765
       crops_113: -1222215896
       crops_225: -813466507
-      crops_76: 1721985466
       crops_178: 1639214444
       crops_18: -248432272
+      CornB_1: 1941058421
       crops_140: -1316837030
       crops_249: -861544954
       crops_41: -373922453
@@ -7262,9 +7253,9 @@ TextureImporter:
       crops_166: -1285196507
       crops_8: -80746176
       crops_198: -765819650
-      crops_245: 1037654131
-      crops_255: -641018041
+      tomato_0: 1715273778
       crops_321: -294694771
+      crops_255: -641018041
       crops_143: 1224768561
       crops_240: -542288357
       crops_120: -2037276965
@@ -7274,10 +7265,12 @@ TextureImporter:
       crops_36: 295317938
       crops_137: -489471267
       crops_147: 1824006333
+      blackberry_0: 1394467501
       crops_98: 1208093952
       crops_52: 710549875
       crops_138: 515978605
       crops_142: -1994178119
+      asparagus_0: -1673448352
       crops_114: 123719082
       crops_274: -1807193298
       crops_3: -1961544828
@@ -7285,18 +7278,18 @@ TextureImporter:
       crops_184: -814578116
       crops_196: -143005116
       crops_109: 1553171010
-      crops_160: -1673448352
       crops_281: -1149799478
       crops_299: -1934858420
+      strawberryB_3: 1265208501
       w_1: 720390289
       crops_165: -179994683
       crops_69: 19651423
-      crops_214: -984889455
       crops_250: -1135899231
       crops_285: -1087341721
       crops_300: -1443362378
-      crops_310: 1645472171
       Corn_1: 659603056
+      strawberryB_0: 164380039
+      crops_310: 1645472171
       crops_149: -1420542684
       crops_296: 295116263
       crops_96: -1332968613
@@ -7304,6 +7297,7 @@ TextureImporter:
       crops_265: -1503300177
       crops_332: 1691559690
       crops_319: 1411359401
+      tomato_3: 2055227362
       crops_169: 1246277714
       crops_304: -786753225
       crops_28: 1714687180
@@ -7316,22 +7310,24 @@ TextureImporter:
       crops_156: -2102269660
       Corn_0: -2021777108
       crops_25: 1393411918
-      crops_224: -956489648
+      blueberry_1: 1862388879
+      crops_306: 2016412401
       crops_1: 2129918282
       crops_124: -31805550
-      crops_306: 2016412401
       crops_291: 2019315665
       crops_222: 1414961355
       crops_235: 1754217609
       crops_67: 1012922242
       crops_292: 1132371850
       crops_237: -730247260
+      tomato_1: -1614806822
+      blackberry_2: 1037654131
       crops_232: 248270885
+      strawberry_1: 1733519548
       crops_48: -484261355
       crops_133: 1967253211
       crops_54: -1884500110
       crops_10: 237705170
-      crops_246: 1779545249
       crops_83: -1515928057
       crops_209: -1175696660
       crops_115: 1674609097
@@ -7342,27 +7338,28 @@ TextureImporter:
       crops_152: 1635855830
       crops_45: -695358557
       crops_40: -1953515873
-      crops_188: 1715273778
+      crops_253: -652576493
       Corn_4: 1694860207
       crops_65: -602762684
       crops_264: 1716740483
-      crops_253: -652576493
+      crops_311: 479847763
       crops_77: 1046040734
       crops_207: -501274323
       crops_294: -1661099370
+      Onion_3: 468972147
       crops_298: -778381136
-      crops_311: 479847763
       crops_68: 1209030574
       crops_4: 266199523
       crops_86: 492418257
       crops_168: -430216946
       crops_322: -912951553
       crops_64: 1679214981
+      CornB_2: -856519822
       crops_301: 321190015
       crops_303: 478822901
       crops_238: -730864659
       crops_318: 2076113296
-      crops_278: 1265208501
+      CornB_3: 1281563225
       w_2: 1059342982
       crops_197: -2138988861
       crops_226: 711978141
@@ -7378,6 +7375,7 @@ TextureImporter:
       crops_221: 203339690
       crops_107: -2136733340
       crops_177: -1634273852
+      strawberryB_2: 1779545249
       crops_324: 1800106569
       crops_287: -1403422939
       crops_14: -1689033719
@@ -7385,7 +7383,6 @@ TextureImporter:
       crops_71: -1317554990
       crops_5: -1257944350
       crops_176: -1636559598
-      crops_279: 434900403
       crops_283: 808955603
       crops_21: 1323839843
       crops_105: 726248749
@@ -7395,9 +7392,11 @@ TextureImporter:
       crops_22: 1201598548
       crops_99: -787115454
       crops_312: 1676882375
-      crops_277: -71005723
+      CornB_4: -641758176
       crops_80: 598543169
       crops_118: 1853591501
+      Onion_0: -451535745
+      blackberry_3: -71005723
       crops_218: -1662691203
       crops_121: 894090183
       crops_266: 764127373
@@ -7405,6 +7404,7 @@ TextureImporter:
       crops_261: -417587433
       pumpkin_2: 906280896
       crops_170: 408240602
+      asparagus_2: -956489648
       crops_275: -1740371431
       crops_0: -1988354580
       crops_39: 1259916360
@@ -7412,24 +7412,24 @@ TextureImporter:
       crops_131: 2091793427
       crops_150: 1325375456
       crops_269: 1149962454
-      crops_180: -685480285
       crops_242: 1573896282
-      crops_247: -1864226696
       crops_314: -466445079
-      crops_244: 1789354626
+      crops_330: -964740130
+      crops_293: -1358283145
       crops_172: 1342327874
       crops_19: -1719210836
-      crops_293: -1358283145
-      crops_192: -1670181681
+      strawberryB_1: -984889455
+      Onion_1: -1733196935
       crops_37: 1538536114
       crops_171: -1278608694
-      crops_330: -964740130
+      asparagus_3: 214370539
       crops_82: -2039201425
       crops_309: -1915721869
       crops_16: 178650971
       crops_79: -1834319250
       crops_202: 285964196
       crops_286: 426447919
+      blueberry_2: -1864226696
       crops_78: 1829342158
       crops_2: -742632681
       crops_117: -1161205991
@@ -7443,7 +7443,6 @@ TextureImporter:
       crops_125: 946765190
       pumpkin_0: 118328160
       crops_146: -2052696769
-      crops_159: -641758176
       pumpkin_3: 441641650
       crops_46: -1382815516
       crops_101: 230689846
